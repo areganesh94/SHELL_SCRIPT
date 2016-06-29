@@ -1,0 +1,7 @@
+echo "read the number"
+read number
+
+if [[ $number -gt 20 ]] && [[ "$@" -lt 1 ]] || [[ -d test_if_statement_ ]]
+then 
+echo no error
+fi

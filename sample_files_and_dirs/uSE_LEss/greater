@@ -1,0 +1,6 @@
+val=$(< c.txt)
+comp=$1
+if [[ "$val" -gt "$comp" ]]
+  then echo "greater"
+elif [[ "$val" -eq "$comp" ]]
+  then echo "equal"

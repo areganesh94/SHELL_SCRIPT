@@ -1,0 +1,10 @@
+echo $@
+if [ "$#" -gt 0 ]
+then
+    echo "There's Beans"
+fi
+if [ "$1" = "as" ]
+then
+    echo "as Beans"
+fi
+
